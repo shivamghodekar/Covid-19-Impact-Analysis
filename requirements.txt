@@ -1,4 +1,5 @@
-google_search_results
+dash
 pandas
-serpapi
-streamlit
+numpy
+plotly
+
