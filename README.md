@@ -51,12 +51,4 @@ It visualizes Covid-19 data (from `state_wise_daily data.csv`) to analyze the im
 - **Bootstrap** → Styling (via external CSS)  
 - **Pandas** → Data analysis  
 
-## 🛠️ Technologies Used
-- [Dash](https://dash.plotly.com/)  
-- [Plotly](https://plotly.com/python/)  
-- [Pandas](https://pandas.pydata.org/)  
-- [Numpy](https://numpy.org/)  
-
 ---
-
-## 📂 Project Structure
