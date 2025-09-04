@@ -23,6 +23,34 @@ It visualizes Covid-19 data (from `state_wise_daily data.csv`) to analyze the im
 
 ---
 
+## 🏗️ Project Architecture
+- **Frontend** → Dash HTML & Core Components (`html.Div`, `dcc.Dropdown`, `dcc.Graph`).
+- **Backend** → Flask (auto-managed by Dash).
+- **Data Layer** → CSV file processed using `pandas`.
+- **Visualization** → Plotly (Bar, Line, Pie charts).
+
+## 📂 Dataset
+- **File used**: `state_wise_daily data.csv`  
+- Contains:  
+  - `State` → Name of the state  
+  - `Status` → Confirmed, Recovered, Deceased  
+  - `Hospitalized`, `Recovered`, `Deceased` counts  
+  - `Mask`, `Sanitizer`, `Oxygen` usage data  
+  - `Zone` classification
+ 
+## 📌 Use Cases
+- 🏥 **Healthcare officials** → Track cases & allocate resources.  
+- 📊 **Researchers** → Analyze recovery vs death patterns.  
+- 🏛️ **Government agencies** → Monitor spread and plan response.  
+- 📉 **General public** → Awareness about COVID-19 status.  
+
+## 🛠️ Tech Stack
+- **Python 3.10+**  
+- **Dash (Plotly)** → UI framework  
+- **Plotly Express & Graph Objects** → Charts  
+- **Bootstrap** → Styling (via external CSS)  
+- **Pandas** → Data analysis  
+
 ## 🛠️ Technologies Used
 - [Dash](https://dash.plotly.com/)  
 - [Plotly](https://plotly.com/python/)  
